@@ -7,7 +7,7 @@ import subprocess
 class TestBookScraping(unittest.TestCase):
     def test_book_scraping(self):
         # Run the book scraping code        
-        subprocess.run("python book_scraping.py", check=True, shell=True)
+        subprocess.run("python3 book_scraping.py", check=True, shell=True)
         print(os.getcwd())
 
 
