@@ -24,9 +24,9 @@ with open('books.csv', mode='w', newline='', encoding='utf-8') as csv_file:
 print('Data successfully written to CSV file.')
 
 # Create a bar chart of the book prices
-# plt.bar(titles, prices)
-# plt.xticks(rotation=90)
-# plt.xlabel('Book Titles')
-# plt.ylabel('Price ($)')
-# plt.title('Book Prices')
-# plt.show()
+plt.bar(titles, prices)
+plt.xticks(rotation=90)
+plt.xlabel('Book Titles')
+plt.ylabel('Price ($)')
+plt.title('Book Prices')
+plt.show()
